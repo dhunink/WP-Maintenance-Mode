@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Maintenance Mode 2.0.0\n"
-"POT-Creation-Date: 2014-09-26 19:03+0200\n"
-"PO-Revision-Date: 2014-09-26 19:03+0200\n"
+"POT-Creation-Date: 2014-10-07 20:32+0100\n"
+"PO-Revision-Date: 2014-10-07 20:33+0100\n"
 "Last-Translator: Dennis Hunink <dennishunink@me.com>\n"
 "Language-Team: Designmodo <info@designmodo.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.6.9\n"
 "X-Poedit-Basepath: ../\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "WP Maintenance Mode"
 msgstr "WP Maintenance Mode"
 
-#: includes/classes/wp-maintenance-mode-admin.php:358
+#: includes/classes/wp-maintenance-mode-admin.php:367
 msgid "Settings"
 msgstr "Instellingen"
 
-#: includes/classes/wp-maintenance-mode-admin.php:377
+#: includes/classes/wp-maintenance-mode-admin.php:386
 #, php-format
 msgid ""
 "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a "
@@ -35,12 +35,12 @@ msgstr ""
 "De Onderhoudsmodus is <strong>actief</strong>. Vergeet niet om hem <a href="
 "\"%s\">uit te schakelen</a> wanneer je klaar bent."
 
-#: includes/classes/wp-maintenance-mode.php:100
-#: includes/classes/wp-maintenance-mode.php:101
+#: includes/classes/wp-maintenance-mode.php:102
+#: includes/classes/wp-maintenance-mode.php:103
 msgid "Maintenance mode"
 msgstr "Onderhoudsmodus"
 
-#: includes/classes/wp-maintenance-mode.php:103
+#: includes/classes/wp-maintenance-mode.php:105
 msgid ""
 "<p>Sorry for the inconvenience.<br />Our website is currently undergoing "
 "scheduled maintenance.<br />Thank you for your understanding.</p>"
@@ -48,11 +48,11 @@ msgstr ""
 "<p>Excuus voor het ongemak.<br />Onze website ondergaat op dit moment "
 "gepland onderhoud.<br/>Bedankt voor uw begrip.</p>"
 
-#: includes/classes/wp-maintenance-mode.php:121
+#: includes/classes/wp-maintenance-mode.php:123
 msgid "Notify me when it's ready"
 msgstr "Informeer mij wanneer het is afgerond"
 
-#: includes/classes/wp-maintenance-mode.php:249
+#: includes/classes/wp-maintenance-mode.php:258
 #, php-format
 msgid ""
 "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s"
@@ -61,35 +61,35 @@ msgstr ""
 "De WP Maintenance Mode Plugin is opnieuw opgestart en je MOET de <a href=\"%s"
 "\">instellingen</a> opnieuw bekijken."
 
-#: includes/classes/wp-maintenance-mode.php:425
-#: includes/classes/wp-maintenance-mode.php:439
+#: includes/classes/wp-maintenance-mode.php:444
+#: includes/classes/wp-maintenance-mode.php:458
 msgid "Maintenance Mode"
 msgstr "Onderhousmodus"
 
-#: includes/classes/wp-maintenance-mode.php:630
-#: includes/classes/wp-maintenance-mode.php:658
+#: includes/classes/wp-maintenance-mode.php:655
+#: includes/classes/wp-maintenance-mode.php:685
 msgid "Please enter a valid email address."
 msgstr "Voer een geldig e-mailadres in."
 
-#: includes/classes/wp-maintenance-mode.php:641
+#: includes/classes/wp-maintenance-mode.php:666
 msgid "You successfuly subscribed. Thanks!"
 msgstr "Je bent succesvol aangemeld, dankjewel!"
 
-#: includes/classes/wp-maintenance-mode.php:654
+#: includes/classes/wp-maintenance-mode.php:681
 msgid "All fields required."
 msgstr "Alle velden zijn verplicht."
 
-#: includes/classes/wp-maintenance-mode.php:675
+#: includes/classes/wp-maintenance-mode.php:702
 msgid "Message via contact"
 msgstr "Bericht via contact"
 
-#: includes/classes/wp-maintenance-mode.php:679
+#: includes/classes/wp-maintenance-mode.php:706
 msgid "Your email was sent to the website administrator. Thanks!"
 msgstr "Je bericht is verstuurd naar de beheerder. Dankjewel!"
 
 #: views/loginform.php:8
 msgid "Login"
-msgstr ""
+msgstr "Inloggen"
 
 #: views/maintenance.php:41
 msgid "your e-mail..."
@@ -121,7 +121,7 @@ msgstr "Neem contact met ons op"
 
 #: views/maintenance.php:97
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard"
 
 #: views/settings.php:6
 msgid "Settings saved."
@@ -234,12 +234,13 @@ msgstr "Wil je een bericht zien wanneer de onderhoudsmodus actief is?"
 
 #: views/settings.php:101
 msgid "Dashboard link"
-msgstr ""
+msgstr "Dashboard link"
 
 #: views/settings.php:107
 msgid ""
 "Do you want to add a link to the dashboard on your maintenance mode page?"
 msgstr ""
+"Wil je een link naar het dashboard toevoegen aan je onderhoudsmodus pagina?"
 
 #: views/settings.php:115 views/settings.php:218 views/settings.php:421
 msgid "Save settings"
@@ -364,19 +365,19 @@ msgstr "Toon sociale netwerken?"
 
 #: views/settings.php:311
 msgid "Links target?"
-msgstr ""
+msgstr "Link doel?"
 
 #: views/settings.php:314
 msgid "New page"
-msgstr ""
+msgstr "Nieuwe pagina"
 
 #: views/settings.php:315
 msgid "Same page"
-msgstr ""
+msgstr "Zelfde pagina"
 
 #: views/settings.php:317
 msgid "Choose how the links will open."
-msgstr ""
+msgstr "Kies hoe de link zal openen."
 
 #: views/settings.php:365
 msgid "Contact"
@@ -408,15 +409,15 @@ msgstr "Vouwen - Opvouwen"
 
 #: views/settings.php:397
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: views/settings.php:402
 msgid "Use Google Analytics?"
-msgstr ""
+msgstr "Gebruik Google Analytics?"
 
 #: views/settings.php:411
 msgid "Tracking code"
-msgstr ""
+msgstr "Tracking code"
 
 #: views/sidebar.php:3
 msgid "Plugin Info"
@@ -440,7 +441,7 @@ msgstr "GitHub"
 
 #: views/sidebar.php:22
 msgid "WordPress Themes"
-msgstr ""
+msgstr "WordPress thema's"
 
 #: views/sidebar.php:31
 msgid "Resources"
